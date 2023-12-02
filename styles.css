@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 86px;
+    position: sticky;
+    top: 0;
+    border-bottom: whitesmoke;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-left {
+    margin-left: 32px;
+    margin-right: 100px;
+}
+.header-location {
+    margin-right: 40px;
+}
+.header-location-title {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.header-location-desc {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+label {
+    position: relative;
+  }
+  
+label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath d='M16.036 18.455l2.404-2.405 5.586 5.587-2.404 2.404zM8.5 2C12.1 2 15 4.9 15 8.5S12.1 15 8.5 15 2 12.1 2 8.5 4.9 2 8.5 2zm0-2C3.8 0 0 3.8 0 8.5S3.8 17 8.5 17 17 13.2 17 8.5 13.2 0 8.5 0zM15 16a1 1 0 1 1 2 0 1 1 0 1 1-2 0'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  
+input {
+    padding: 10px 30px;
+    width: 800px;
+    height: 20px;
+    border-radius: 10px;
+    
+  }
+
+.header-login {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-right: 70px;
+}
+.header-right {
+    width: 112px;
+    height: 52px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right svg {
+    width: 24px;
+    margin-right: 8px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.main-container {
+    max-width: 1280px;
+}
+.section-1, .section-1 img {
+    width: 100%;
+}
+.section-2 {
+    margin: 0 16px;
+    display: flex;
+    overflow: auto scroll;
+    gap: 20px;
+    border-radius: 12px;
+}
+.section-2-img {
+    height: 195px;
+    width: 336px;
+    cursor: pointer;
+    display: flex;
+}
+.section-2-img img {
+    height: 100%;
+}
+.section-3 {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-3-img {
+    width: 128px;
+}
+.section-3-img img {
+    width: 100%;
+}
+.section-4 {
+    margin: 16px;
+}
+.section-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-list {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    overflow: auto scroll;
+    gap: 20px;
+}
+.product-card {
+    padding: 12px;
+    width: 200px;
+    border: 0.5px solid white;
+    border-radius: 8px;
+}
+.product-card img {
+    width: 100%;
+}
+.product-card-title {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.product-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.product-action button {
+    width: 80px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-qty {
+    font-size: 14px;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
